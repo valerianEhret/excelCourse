@@ -1,0 +1,24 @@
+{
+  "name": "excel-course",
+  "version": "1.0.0",
+  "description": "pure JS Excel app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valerianEhret/excelCourse.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Valerian Ehret <valerian.ehret@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valerianEhret/excelCourse/issues"
+  },
+  "homepage": "https://github.com/valerianEhret/excelCourse#readme"
+}

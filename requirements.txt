@@ -24,7 +24,13 @@ GIT
 5. git remote add origin git@github.com:valerianEhret/excelCourse.git      // link to the project
 6. git push -u origin main     //push to git
 7. git checkout -b "webpack"    // create a new branch "webpack"
+8. create a file webpack.config.js
+9. git add .
+10. git commit -m "create webpack"
+11. git push -u origin webpack
 
+Webpack
+1. npm init    //init the project, create package.json
 
 
 
