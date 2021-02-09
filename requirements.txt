@@ -16,10 +16,19 @@ Git
 		2.0.2
 		1 -----------------
 
-
+GIT
 1. create repository on https://github.com/
 2. git init                       // initial git
-3. git add .                      // add all files of the progect in git
+3. git add .                      // add all files of the project in git
+4. git commit -m 'initial'        // first initial commit
+5. git remote add origin git@github.com:valerianEhret/excelCourse.git      // link to the project
+6. git push -u origin main     //push to git
+7. git checkout -b "webpack"    // create a new branch "webpack"
+
+
+
+
+
 
 
 
