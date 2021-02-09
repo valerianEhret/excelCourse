@@ -33,7 +33,16 @@ Webpack
 1. npm init    //init the project, create package.json
 2. npm install webpack webpack-cli --save-dev    //install webpack on the https://webpack.js.org/guides/getting-started/
 
+Plugins
 
+HtmlWebpackPlugin
+npm install --save-dev html-webpack-plugin    // on https://webpack.js.org/plugins/html-webpack-plugin/
+
+CopyWebpackPlugin
+npm install copy-webpack-plugin --save-dev
+
+CleanWebpackPlugin
+npm install --save-dev clean-webpack-plugin     //clean dist
 
 
 
