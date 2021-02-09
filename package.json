@@ -4,7 +4,9 @@
   "description": "pure JS Excel app",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/valerianEhret/excelCourse/issues"
   },
-  "homepage": "https://github.com/valerianEhret/excelCourse#readme"
+  "homepage": "https://github.com/valerianEhret/excelCourse#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
 }
