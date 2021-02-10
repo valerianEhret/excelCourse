@@ -39,10 +39,10 @@ HtmlWebpackPlugin
 npm install --save-dev html-webpack-plugin    // on https://webpack.js.org/plugins/html-webpack-plugin/
 
 CopyWebpackPlugin
-npm install copy-webpack-plugin --save-dev
+npm install copy-webpack-plugin --save-dev     // on https://webpack.js.org/plugins/html-webpack-plugin/
 
 CleanWebpackPlugin
-npm install --save-dev clean-webpack-plugin     //clean dist
+npm install --save-dev clean-webpack-plugin     //clean dist on https://webpack.js.org/plugins/html-webpack-plugin/
 
 
 
