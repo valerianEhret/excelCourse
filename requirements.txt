@@ -44,8 +44,8 @@ npm install copy-webpack-plugin --save-dev     // on https://webpack.js.org/plug
 CleanWebpackPlugin
 npm install --save-dev clean-webpack-plugin     //clean dist on https://webpack.js.org/plugins/html-webpack-plugin/
 
-
-
+MiniCssExtractPlugin
+npm install --save-dev mini-css-extract-plugin
 
 
 
