@@ -45,7 +45,11 @@ CleanWebpackPlugin
 npm install --save-dev clean-webpack-plugin     //clean dist on https://webpack.js.org/plugins/html-webpack-plugin/
 
 MiniCssExtractPlugin
-npm install --save-dev mini-css-extract-plugin
+''npm install --save-dev mini-css-extract-plugin''
 
+Loaders
 
+npm install sass-loader sass webpack --save-dev  // https://webpack.js.org/loaders/sass-loader/
+
+npm i -D css-loader
 
