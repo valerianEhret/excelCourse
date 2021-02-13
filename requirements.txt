@@ -16,10 +16,47 @@ Git
 		2.0.2
 		1 -----------------
 
-
+GIT
 1. create repository on https://github.com/
 2. git init                       // initial git
-3. git add .                      // add all files of the progect in git
+3. git add .                      // add all files of the project in git
+4. git commit -m 'initial'        // first initial commit
+5. git remote add origin git@github.com:valerianEhret/excelCourse.git      // link to the project
+6. git push -u origin main     //push to git
+7. git checkout -b "webpack"    // create a new branch "webpack"
+8. create a file webpack.config.js
+9. git add .
+10. git commit -m "create webpack"
+11. git push -u origin webpack
 
+Webpack
+1. npm init    //init the project, create package.json
+2. npm install webpack webpack-cli --save-dev    //install webpack on the https://webpack.js.org/guides/getting-started/
 
+Plugins
 
+HtmlWebpackPlugin
+npm install --save-dev html-webpack-plugin    // on https://webpack.js.org/plugins/html-webpack-plugin/
+
+CopyWebpackPlugin
+npm install copy-webpack-plugin --save-dev     // on https://webpack.js.org/plugins/html-webpack-plugin/
+
+CleanWebpackPlugin
+npm install --save-dev clean-webpack-plugin     //clean dist on https://webpack.js.org/plugins/html-webpack-plugin/
+
+MiniCssExtractPlugin
+npm install --save-dev mini-css-extract-plugin
+
+Loaders
+npm install sass-loader sass webpack --save-dev  // https://webpack.js.org/loaders/sass-loader/
+npm i -D css-loader
+
+Babel
+npm install --save-dev babel-loader @babel/core  //https://babeljs.io/setup#installation
+npm install @babel/preset-env --save-dev
+
+Sborschiki
+npm i -D cross-env
+
+Polyfill
+npm install --save @babel/polyfill
