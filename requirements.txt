@@ -54,3 +54,6 @@ npm i -D css-loader
 Babel
 npm install --save-dev babel-loader @babel/core  //https://babeljs.io/setup#installation
 npm install @babel/preset-env --save-dev
+
+Sborschiki
+npm i -D cross-env
