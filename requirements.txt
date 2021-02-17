@@ -60,3 +60,6 @@ npm i -D cross-env
 
 Polyfill
 npm install --save @babel/polyfill
+
+CSS
+npm install normalize.css
